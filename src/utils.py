@@ -15,6 +15,7 @@ nltk.download('stopwords')
 from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+nltk.download('punkt_tab')
 from nltk import sent_tokenize
 from gensim.utils import simple_preprocess
 from sklearn.base import BaseEstimator, TransformerMixin
