@@ -1,6 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import nltk
+nltk.download('punkt_tab')
 
 from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
 
