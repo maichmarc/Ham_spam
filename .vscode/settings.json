@@ -1,0 +1,8 @@
+{
+    "workbench.settings.useSplitJSON": false,
+    "python.envFile": "${D:/PROJECTS/Spam_ham/.env}/.env"
+}
+
+// {
+//     "python.envFile": "${D:/PROJECTS/Spam_ham/.env}/.env"
+// }

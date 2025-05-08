@@ -1,0 +1,12 @@
+gensim
+# catboost
+# sklearn
+scikit-learn
+scipy==1.12
+cython
+tqdm
+nltk
+seaborn
+flask
+streamlit
+-e .

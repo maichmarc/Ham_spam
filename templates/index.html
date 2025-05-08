@@ -1,0 +1,40 @@
+<!-- <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>Welcome to the home page</h1>
+
+<h5>This is Natural Language Processing web app uses data from SMS Spam Collection dataset from UC Irvine Machine Learning Repository 
+    to create a Machine Learning algorithm to wheather the content of an SMS message is 'Spam' or 'Ham'.  
+    The data was trained using Word2Vec NLP algorithm and a Classifier applied to perform predictions.
+</h5>
+
+<!-- <a href="{{ url_for('predict_datapoint') }}"></a><button class=grey style="height:75px;width:150px">Predict</button> -->
+<!-- <a href="{{ url_for('predict_datapoint') }}"><button class=grey style="height:75px;width:150px">Predict</button></a>
+
+</body> --> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Spam/Ham Classifier</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Spam/Ham Classifier</h1>
+        <div class="intro">
+            <p>
+                This Natural Language Processing web app uses data from the <strong>SMS Spam Collection dataset</strong> 
+                (UC Irvine Machine Learning Repository) to classify SMS messages as <strong>Spam</strong> or <strong>Ham</strong>.
+                The model was trained using Word2Vec and a Machine Learning classifier.
+            </p>
+        </div>
+        <a href="{{ url_for('predict_datapoint') }}" class="predict-btn">Predict Spam/Ham</a>
+    </div>
+</body>
+</html>
