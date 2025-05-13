@@ -8,7 +8,7 @@ from src.pipeline.prediction_pipeline import CustomData, PredictPipeline
 
 st.title('Spam or Ham')
 st.write("This is Natural Language Processing web app uses data from SMS Spam Collection dataset from UC Irvine Machine Learning Repository " \
-"to create a Machine Learning algorithm to wheather the content of an SMS message is 'Spam' or 'Ham'. " \
+"to create a Machine Learning algorithm to classify the content of an SMS as 'Spam' or 'Ham'. " \
 "The data was trained using Word2Vec NLP algorithm and a Classifier applied to perform predictions.")
 
 
